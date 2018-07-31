@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>1</id>
+    <version>1.0.0.0</version>
+    <title>String similarities</title>
+    <authors>Andrei Lucaci</authors>
+    <owners>Andrei Lucaci</owners>
+    <licenseUrl>https://gist.github.com/mnem-gists/2046999</licenseUrl>
+    <projectUrl>https://github.com/AndreiLucaci/StringSimilarities</projectUrl>
+    <iconUrl>https://i.imgur.com/EC2Tbhk.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Given an instance of IStringSimiliarities one can compute the percentage representing the similarities between two given (input) strings</description>
+    <releaseNotes>Current implementation uses Levenshtein distance.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>string similarities</tags>
+  </metadata>
+</package>
