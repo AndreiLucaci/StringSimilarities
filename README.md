@@ -8,6 +8,9 @@ You can find more information about this [here - Levenshtein distance](https://e
 ## Tests - example
 The tests cover basic behaviour
 
+## Nuget
+You can find it on [nuget - here](https://www.nuget.org/packages/StringSimilarities/1.0.0#)
+
 ### Problem explanation
 Given an instance of ```IStringSimiliarities``` one can compute the percentage representing the similarities between two given (input) strings
 
@@ -24,4 +27,3 @@ var result = stringSimilarities.DetermineSimilarities(firstInputString, secondIn
 // result should be a percentace, in our case 0.2% similar.
 
 ```
-
