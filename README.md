@@ -1,17 +1,17 @@
-#StringSimilarities
+# StringSimilarities
 String similarities C# implementation
 
-##Algorithms
+## Algorithms
 Current implementation uses Levenshtein distance.
-You can find more information about this [here](https://en.wikipedia.org/wiki/Levenshtein_distance)
+You can find more information about this [here - Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
 
-##Tests - example
+## Tests - example
 The tests cover basic behaviour
 
-###Problem explanation
+### Problem explanation
 Given an instance of ```IStringSimiliarities``` one can compute the percentage representing the similarities between two given (input) strings
 
-###Code example
+### Code example
 ```csharp
 
 IStringSimilarities stringSimilarities = new LevenshteinStringSimilarities();
