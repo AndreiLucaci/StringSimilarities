@@ -14,10 +14,12 @@ namespace StringSimilarities
 
             var distance = ComputeDistance(first, second);
 
-            return 1M / (distance == default(int) ? 1M : distance);
+            var percentage = ComputePercentage(first, second, distance);
+
+            return percentage;
         }
 
-        private static decimal ComputeDistance(string first, string second)
+        private static int ComputeDistance(string first, string second)
         {
             // create distance arrays
             var firstArrayDistance = CreateArrayDistance(second.Length);
@@ -31,6 +33,14 @@ namespace StringSimilarities
 
             // return the result
             return firstArrayDistance.Last();
+        }
+
+        private static decimal ComputePercentage(string first, string second, int distance)
+        {
+            var maxLength = new[] {first.Length, second.Length}.Max();
+            var result = (decimal)maxLength - distance;
+
+            return result / maxLength * 100;
         }
 
         private static int[] CreateArrayDistance(int stringLength)

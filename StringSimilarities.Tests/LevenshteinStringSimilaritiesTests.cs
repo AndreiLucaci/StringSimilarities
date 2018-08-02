@@ -11,9 +11,9 @@ namespace StringSimilarities.Tests
 
         public static IEnumerable GetDatas()
         {
-            yield return new Tuple<string, string, decimal, decimal>("andrei", "ardei", 0.5M, 0.5M);
-            yield return new Tuple<string, string, decimal, decimal>("asdfgh", "qwerty", 0.15M, 0.17M);
-            yield return new Tuple<string, string, decimal, decimal>("andrei", "andrei", 1M, 1M);
+            yield return new Tuple<string, string, decimal, decimal>("andrei", "ardei", 66M, 67M);
+            yield return new Tuple<string, string, decimal, decimal>("asdfgh", "qwerty", 0, 0);
+            yield return new Tuple<string, string, decimal, decimal>("andrei", "andrei", 100M, 100M);
         }
 
         [SetUp]
