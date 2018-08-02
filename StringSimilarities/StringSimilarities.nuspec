@@ -1,18 +1,22 @@
-<?xml version="1.0"?>
-<package >
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>1</id>
-    <version>1.0.0.0</version>
+    <id>StringSimilarities</id>
+    <version>2.0.0</version>
     <title>String similarities</title>
     <authors>Andrei Lucaci</authors>
     <owners>Andrei Lucaci</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <licenseUrl>https://gist.github.com/mnem-gists/2046999</licenseUrl>
     <projectUrl>https://github.com/AndreiLucaci/StringSimilarities</projectUrl>
     <iconUrl>https://i.imgur.com/EC2Tbhk.png</iconUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Given an instance of IStringSimiliarities one can compute the percentage representing the similarities between two given (input) strings</description>
     <releaseNotes>Current implementation uses Levenshtein distance.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>string similarities</tags>
   </metadata>
+  <files>
+    <file src="lib\net\StringSimilarities.dll" target="lib\net\StringSimilarities.dll" />
+    <file src="lib\net\StringSimilarities.pdb" target="lib\net\StringSimilarities.pdb" />
+  </files>
 </package>
