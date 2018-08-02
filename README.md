@@ -9,13 +9,13 @@ You can find more information about this [here - Levenshtein distance](https://e
 The tests cover basic behaviour
 
 ## Nuget
-You can find it on [nuget - here](https://www.nuget.org/packages/StringSimilarities/1.0.0#)
+You can find it on [nuget - here](https://www.nuget.org/packages/StringSimilarities/2.0.0#)
 
 | Environment  | command  |
 |---|---|
-| Package Manager  | Install-Package StringSimilarities -Version 1.0.0  |
-|  .NET CLI | dotnet add package StringSimilarities --version 1.0.0  |
-|  Paket CLI | paket add StringSimilarities --version 1.0.0  |
+| Package Manager  | Install-Package StringSimilarities -Version 2.0.0  |
+|  .NET CLI | dotnet add package StringSimilarities --version 2.0.0  |
+|  Paket CLI | paket add StringSimilarities --version 2.0.0  |
 
 ### Problem explanation
 Given an instance of ```IStringSimiliarities``` one can compute the percentage representing the similarities between two given (input) strings
